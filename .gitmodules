@@ -12,7 +12,8 @@
 [submodule "ch_modules"]
 	path = source/ch_modules
 	url = https://github.com/xeedjr/devices_chibios_hal.git
-[submodule "src/nrf24"]
+	
+
+[submodule "source/src/nrf24"]
 	path = source/src/nrf24
 	url = https://github.com/xeedjr/RF24.git
-	branch = master
