@@ -48,19 +48,21 @@
 /* on-board */
 
 #define INDICATE               		GPIOC_LED
-#define INDICATE_PORT          		GPIOC
+#define INDICATE_PORT          		IOPORT3
 #define USER_BUTTON            		7
-#define USER_BUTTON_PORT       		GPIOB
+#define USER_BUTTON_PORT       		IOPORT2
 #define USER_RELE1            		6
-#define USER_RELE1_PORT       		GPIOB
+#define USER_RELE1_PORT       		IOPORT2
 #define USER_MB_RS485_RTS           12
-#define USER_MB_RS485_RTS_PORT      GPIOA
+#define USER_MB_RS485_RTS_PORT      IOPORT1
 #define USER_MB_USART       	  	UARTD1
 #define USER_MB_RTS_ENABLE			1
 #define USER_MB_TIMER 				GPTD1
 #define USER_MB_THREAD_WORK_AREA_SIZE 1024
+#define USER_MB_THREAD_PRIORITY osPriorityNormal
 
-#define USER_DATA_IN_PORT	GPIOA
+
+#define USER_DATA_IN_PORT	IOPORT1
 #define USER_DATA_IN_PAD	0
 
 /* on-board */

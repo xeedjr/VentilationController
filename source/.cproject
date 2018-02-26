@@ -151,7 +151,23 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx/devices/STM32F1xx&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/license&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ext/CMSIS/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx/devices/STM32F1xx&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx/compilers/GCC&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/startup/ARMCMx/devices/STM32F1xx&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ext/CMSIS/ST/STM32F1xx&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/rt/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/license&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/rt/ports/ARMCMx&quot;"/>
                                     									
@@ -227,6 +243,8 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/hal/ports/STM32/LLD/TIMv1&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/hal/ports/STM32/LLD/QUADSPIv1&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/hal/ports/common/ARMCMx&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/hal/osal/rt&quot;"/>
@@ -239,7 +257,23 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/ext/CMSIS/ST/STM32F1xx&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/license&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ext/CMSIS/include&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx/devices/STM32F1xx&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx/compilers/GCC&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/startup/ARMCMx/devices/STM32F1xx&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ext/CMSIS/ST/STM32F1xx&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/abstractions/cmsis_os&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/oslib/include&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/rt/include&quot;"/>
                                     									
@@ -327,6 +361,8 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/hal/ports/STM32/LLD/TIMv1&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/hal/ports/STM32/LLD/QUADSPIv1&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/hal/ports/common/ARMCMx&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/hal/osal/rt&quot;"/>
@@ -339,9 +375,25 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/ext/CMSIS/ST/STM32F1xx&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/license&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ext/CMSIS/include&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx/devices/STM32F1xx&quot;"/>
                                     									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx/compilers/GCC&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/startup/ARMCMx/devices/STM32F1xx&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/oslib/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/abstractions/cmsis_os&quot;"/>
+                                    									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/rt/include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ext/CMSIS/ST/STM32F1xx&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;../os/os/rt/ports/ARMCMx&quot;"/>
                                     									
@@ -431,7 +483,7 @@
                                 								
                                 <option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.paths.1198298928" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.linker.paths" useByScannerDiscovery="false" valueType="libPaths">
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/ports/ARMCMx/compilers/GCC&quot;"/>
+                                    <listOptionValue builtIn="false" value="&quot;../os/os/common/startup/ARMCMx/compilers/GCC/ld&quot;"/>
                                     								
                                 </option>
                                 								
@@ -585,11 +637,9 @@
                         						
                         <entry excluding="tests|generator|extra|tools|generator-bin|examples|docs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nanopb"/>
                         						
-                        <entry excluding="os/common/ports/ARMCMx/devices/STM32F3xx|os/common/ports/ARMCMx/compilers/RVCT|os/hal/ports/STM32/LLD/DACv1|os/hal/ports/KINETIS|os/common/ports/e200|os/common/ports/ARMCMx/devices/STM32F2xx|os/common/ports/ARMCMx/devices/K20x|testhal|test|os/ext/CMSIS/ST/STM32F2xx|os/hal/ports/STM32/LLD/USARTv2|os/hal/ports/STM32/LLD/DMAv2|os/ext/CMSIS/ST/STM32F3xx|os/rt/dox|os/common/ports/ARMCMx/devices/STM32F4xx|os/hal/ports/STM32/STM32F0xx|os/rt/ports/SIMIA32|os/ext/CMSIS/ST/STM32F4xx|os/hal/ports/simulator|os/hal/osal/nil|os/ext/CMSIS/KINETIS|os/hal/ports/STM32/LLD/ADCv2|os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v6m.s|os/hal/ports/AVR|os/rt/ports/ARMCMx/chcore_v6m.c|os/hal/ports/STM32/LLD/ADCv1|os/common/ports/ARMCMx/compilers/GCC/ld|os/hal/ports/STM32/LLD/SPIv2|os/common/ports/ARMCMx/compilers/IAR|demos|os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s|os/ext/CMSIS/ST/STM32L4xx|os/hal/ports/STM32/LLD/I2Cv2|os/common/ports/ARMCMx/devices/STM32F0xx|os/hal/ports/STM32/LLD/ADCv3|os/various/devices_lib|ext|os/ext/CMSIS/ST/STM32F0xx|os/common/ports/ARMCMx/devices/STM32L4xx|os/hal/ports/STM32/STM32L0xx|os/hal/ports/STM32/STM32F7xx|os/hal/ports/STM32/STM32L1xx|os/rt/ports/AVR|os/hal/osal/os-less|os/hal/templates|os/various/lwip_bindings|os/common/ports/ARMCMx/devices/KL2x|os/ext/CMSIS/ST/STM32L1xx|os/nil|os/rt/ports/ARM|os/hal/ports/STM32/LLD/GPIOv3|os/ext/CMSIS/ST/STM32L0xx|os/rt/ports/e200|os/common/ports/ARMCMx/devices/STM32L1xx|os/hal/ports/LPC|os/hal/ports/STM32/LLD/GPIOv2|os/hal/boards|os/common/ports/ARMCMx/devices/STM32L0xx|os/hal/ports/STM32/STM32L4xx|os/common/ports/ARM|os/common/ports/ARMCMx/devices/STM32F7xx|os/rt/templates|os/hal/ports/STM32/STM32F3xx|doc|os/hal/ports/STM32/LLD/RTCv2|os/hal/dox|os/ext/CMSIS/ST/STM32F7xx|os/rt/ports/ARMCMx/compilers/GCC/mk|os/rt/ports/ARMCMx/compilers/IAR|os/hal/ports/STM32/STM32F37x|os/common/ports/ARMCMx/compilers/GCC/mk|os/hal/ports/STM32/STM32F4xx|os/various/fatfs_bindings|os/rt/ports/ARMCMx/compilers/RVCT" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="os"/>
+                        <entry excluding="os/common/startup/ARMCMx/compilers/GCC/crt0_v6m.S|os/common/abstractions/nasa_cfe|os/common/ports/ARMCMx/compilers/GCC/chcoreasm_v6m.S|os/common/ports/ARMCMx/chcore_v6m.c|os/common/ports/templates|os/common/ports/SIMIA32|os/common/ports/AVR|os/common/startup/ARMCMx/compilers/RVCT|os/common/startup/ARMCMx/compilers/IAR|os/common/startup/ARM|os/common/startup/SIMIA32|os/common/startup/e200|os/ex|os/hal/lib/fallback|os/hal/lib/peripherals|os/hal/osal/lib|os/various/shell|testex|tools|os/common/ports/ARMCMx/devices/STM32F3xx|os/common/ports/ARMCMx/compilers/RVCT|os/hal/ports/STM32/LLD/DACv1|os/hal/ports/KINETIS|os/common/ports/e200|os/common/ports/ARMCMx/devices/STM32F2xx|os/common/ports/ARMCMx/devices/K20x|testhal|test|os/ext/CMSIS/ST/STM32F2xx|os/hal/ports/STM32/LLD/USARTv2|os/hal/ports/STM32/LLD/DMAv2|os/ext/CMSIS/ST/STM32F3xx|os/rt/dox|os/common/ports/ARMCMx/devices/STM32F4xx|os/hal/ports/STM32/STM32F0xx|os/rt/ports/SIMIA32|os/ext/CMSIS/ST/STM32F4xx|os/hal/ports/simulator|os/hal/osal/nil|os/ext/CMSIS/KINETIS|os/hal/ports/STM32/LLD/ADCv2|os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v6m.s|os/hal/ports/AVR|os/rt/ports/ARMCMx/chcore_v6m.c|os/hal/ports/STM32/LLD/ADCv1|os/common/ports/ARMCMx/compilers/GCC/ld|os/hal/ports/STM32/LLD/SPIv2|os/common/ports/ARMCMx/compilers/IAR|demos|os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s|os/ext/CMSIS/ST/STM32L4xx|os/hal/ports/STM32/LLD/I2Cv2|os/common/ports/ARMCMx/devices/STM32F0xx|os/hal/ports/STM32/LLD/ADCv3|os/various/devices_lib|ext|os/ext/CMSIS/ST/STM32F0xx|os/common/ports/ARMCMx/devices/STM32L4xx|os/hal/ports/STM32/STM32L0xx|os/hal/ports/STM32/STM32F7xx|os/hal/ports/STM32/STM32L1xx|os/rt/ports/AVR|os/hal/osal/os-less|os/hal/templates|os/various/lwip_bindings|os/common/ports/ARMCMx/devices/KL2x|os/ext/CMSIS/ST/STM32L1xx|os/nil|os/rt/ports/ARM|os/hal/ports/STM32/LLD/GPIOv3|os/ext/CMSIS/ST/STM32L0xx|os/rt/ports/e200|os/common/ports/ARMCMx/devices/STM32L1xx|os/hal/ports/LPC|os/hal/ports/STM32/LLD/GPIOv2|os/hal/boards|os/common/ports/ARMCMx/devices/STM32L0xx|os/hal/ports/STM32/STM32L4xx|os/common/ports/ARM|os/common/ports/ARMCMx/devices/STM32F7xx|os/rt/templates|os/hal/ports/STM32/STM32F3xx|doc|os/hal/ports/STM32/LLD/RTCv2|os/hal/dox|os/ext/CMSIS/ST/STM32F7xx|os/rt/ports/ARMCMx/compilers/GCC/mk|os/rt/ports/ARMCMx/compilers/IAR|os/hal/ports/STM32/STM32F37x|os/common/ports/ARMCMx/compilers/GCC/mk|os/hal/ports/STM32/STM32F4xx|os/various/fatfs_bindings|os/rt/ports/ARMCMx/compilers/RVCT" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="os"/>
                         						
                         <entry excluding="os/common/ports/ARMCMx/devices/STM32F3xx|os/common/ports/ARMCMx/compilers/RVCT|os/hal/ports/SPC5|os/hal/ports/KINETIS|os/common/ports/e200|os/common/ports/ARMCMx/devices/K20x|os/hal/ports/STM32/LLD/USARTv2|os/common/ports/ARMCMx/devices/STM32F4xx|os/hal/ports/STM32/STM32F0xx|os/rt/ports/SIMIA32|os/hal/ports/STM32/LLD/DMAv1|os/hal/ports/simulator|os/various/shell.c|os/hal/osal/nil|os/ext/CMSIS/KINETIS|os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v6m.S|os/hal/ports/AVR|os/rt/ports/ARMCMx/chcore_v6m.c|os/common/ports/ARMCMx/compilers/GCC/ld|os/hal/ports/STM32/LLD/SPIv2|os/common/ports/ARMCMx/compilers/IAR|os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s|os/various/syscalls.c|os/hal/ports/STM32/LLD/I2Cv2|os/common/ports/ARMCMx/devices/STM32F0xx|os/various/devices_lib|os/hal/ports/STM32/STM32L0xx|os/hal/src/adc.c|os|os/hal/ports/STM32/STM32L1xx|os/rt/ports/AVR|os/hal/templates|os/hal/osal/os-less|os/various/lwip_bindings|os/common/ports/ARMCMx/devices/KL2x|os/nil|os/rt/ports/ARM|os/rt/ports/e200|os/common/ports/ARMCMx/devices/STM32L1xx|os/hal/ports/LPC|os/hal/ports/STM32/LLD/GPIOv2|os/hal/boards|os/common/ports/ARMCMx/devices/STM32L0xx|os/hal/ports/STM32/LLD/OTGv1|os/common/ports/ARM|os/rt/templates|os/hal/ports/STM32/STM32F3xx|os/various/evtimer.c|os/hal/ports/STM32/LLD/RTCv2|os/hal/dox|os/rt/ports/ARMCMx/compilers/GCC/mk|os/rt/ports/ARMCMx/compilers/IAR|os/hal/ports/STM32/STM32F37x|os/common/ports/ARMCMx/compilers/GCC/mk|os/hal/ports/STM32/STM32F4xx|os/various/fatfs_bindings|os/rt/ports/ARMCMx/compilers/RVCT" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="os_user_configs"/>
-                        						
-                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="proto_msg"/>
                         						
                         <entry excluding="RF24.cpp|nrf24/tests|nrf24/examples|radioPinFunctions.c|nrf24.c|BL.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
                         						
@@ -881,11 +931,9 @@
                         						
                         <entry excluding="tests|generator|extra|tools|generator-bin|examples|docs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="nanopb"/>
                         						
-                        <entry excluding="os/common/ports/ARMCMx/devices/STM32F3xx|os/common/ports/ARMCMx/compilers/RVCT|os/hal/ports/STM32/LLD/DACv1|os/hal/ports/KINETIS|os/common/ports/e200|os/common/ports/ARMCMx/devices/STM32F2xx|os/common/ports/ARMCMx/devices/K20x|testhal|test|os/ext/CMSIS/ST/STM32F2xx|os/hal/ports/STM32/LLD/USARTv2|os/hal/ports/STM32/LLD/DMAv2|os/ext/CMSIS/ST/STM32F3xx|os/rt/dox|os/common/ports/ARMCMx/devices/STM32F4xx|os/hal/ports/STM32/STM32F0xx|os/rt/ports/SIMIA32|os/ext/CMSIS/ST/STM32F4xx|os/hal/ports/simulator|os/hal/osal/nil|os/ext/CMSIS/KINETIS|os/hal/ports/STM32/LLD/ADCv2|os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v6m.s|os/hal/ports/AVR|os/rt/ports/ARMCMx/chcore_v6m.c|os/hal/ports/STM32/LLD/ADCv1|os/common/ports/ARMCMx/compilers/GCC/ld|os/hal/ports/STM32/LLD/SPIv2|os/common/ports/ARMCMx/compilers/IAR|demos|os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s|os/ext/CMSIS/ST/STM32L4xx|os/hal/ports/STM32/LLD/I2Cv2|os/common/ports/ARMCMx/devices/STM32F0xx|os/hal/ports/STM32/LLD/ADCv3|os/various/devices_lib|ext|os/ext/CMSIS/ST/STM32F0xx|os/common/ports/ARMCMx/devices/STM32L4xx|os/hal/ports/STM32/STM32L0xx|os/hal/ports/STM32/STM32F7xx|os/hal/ports/STM32/STM32L1xx|os/rt/ports/AVR|os/hal/osal/os-less|os/hal/templates|os/various/lwip_bindings|os/common/ports/ARMCMx/devices/KL2x|os/ext/CMSIS/ST/STM32L1xx|os/nil|os/rt/ports/ARM|os/hal/ports/STM32/LLD/GPIOv3|os/ext/CMSIS/ST/STM32L0xx|os/rt/ports/e200|os/common/ports/ARMCMx/devices/STM32L1xx|os/hal/ports/LPC|os/hal/ports/STM32/LLD/GPIOv2|os/hal/boards|os/common/ports/ARMCMx/devices/STM32L0xx|os/hal/ports/STM32/STM32L4xx|os/common/ports/ARM|os/common/ports/ARMCMx/devices/STM32F7xx|os/rt/templates|os/hal/ports/STM32/STM32F3xx|doc|os/hal/ports/STM32/LLD/RTCv2|os/hal/dox|os/ext/CMSIS/ST/STM32F7xx|os/rt/ports/ARMCMx/compilers/GCC/mk|os/rt/ports/ARMCMx/compilers/IAR|os/hal/ports/STM32/STM32F37x|os/common/ports/ARMCMx/compilers/GCC/mk|os/hal/ports/STM32/STM32F4xx|os/various/fatfs_bindings|os/rt/ports/ARMCMx/compilers/RVCT" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="os"/>
+                        <entry excluding="os/common/startup/ARMCMx/compilers/GCC/crt0_v6m.S|os/common/abstractions/nasa_cfe|os/common/ports/ARMCMx/compilers/GCC/chcoreasm_v6m.S|os/common/ports/ARMCMx/chcore_v6m.c|os/common/ports/templates|os/common/ports/SIMIA32|os/common/ports/AVR|os/common/startup/ARMCMx/compilers/RVCT|os/common/startup/ARMCMx/compilers/IAR|os/common/startup/ARM|os/common/startup/SIMIA32|os/common/startup/e200|os/ex|os/hal/lib/fallback|os/hal/lib/peripherals|os/hal/osal/lib|os/various/shell|testex|tools|os/common/ports/ARMCMx/devices/STM32F3xx|os/common/ports/ARMCMx/compilers/RVCT|os/hal/ports/STM32/LLD/DACv1|os/hal/ports/KINETIS|os/common/ports/e200|os/common/ports/ARMCMx/devices/STM32F2xx|os/common/ports/ARMCMx/devices/K20x|testhal|test|os/ext/CMSIS/ST/STM32F2xx|os/hal/ports/STM32/LLD/USARTv2|os/hal/ports/STM32/LLD/DMAv2|os/ext/CMSIS/ST/STM32F3xx|os/rt/dox|os/common/ports/ARMCMx/devices/STM32F4xx|os/hal/ports/STM32/STM32F0xx|os/rt/ports/SIMIA32|os/ext/CMSIS/ST/STM32F4xx|os/hal/ports/simulator|os/hal/osal/nil|os/ext/CMSIS/KINETIS|os/hal/ports/STM32/LLD/ADCv2|os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v6m.s|os/hal/ports/AVR|os/rt/ports/ARMCMx/chcore_v6m.c|os/hal/ports/STM32/LLD/ADCv1|os/common/ports/ARMCMx/compilers/GCC/ld|os/hal/ports/STM32/LLD/SPIv2|os/common/ports/ARMCMx/compilers/IAR|demos|os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s|os/ext/CMSIS/ST/STM32L4xx|os/hal/ports/STM32/LLD/I2Cv2|os/common/ports/ARMCMx/devices/STM32F0xx|os/hal/ports/STM32/LLD/ADCv3|os/various/devices_lib|ext|os/ext/CMSIS/ST/STM32F0xx|os/common/ports/ARMCMx/devices/STM32L4xx|os/hal/ports/STM32/STM32L0xx|os/hal/ports/STM32/STM32F7xx|os/hal/ports/STM32/STM32L1xx|os/rt/ports/AVR|os/hal/osal/os-less|os/hal/templates|os/various/lwip_bindings|os/common/ports/ARMCMx/devices/KL2x|os/ext/CMSIS/ST/STM32L1xx|os/nil|os/rt/ports/ARM|os/hal/ports/STM32/LLD/GPIOv3|os/ext/CMSIS/ST/STM32L0xx|os/rt/ports/e200|os/common/ports/ARMCMx/devices/STM32L1xx|os/hal/ports/LPC|os/hal/ports/STM32/LLD/GPIOv2|os/hal/boards|os/common/ports/ARMCMx/devices/STM32L0xx|os/hal/ports/STM32/STM32L4xx|os/common/ports/ARM|os/common/ports/ARMCMx/devices/STM32F7xx|os/rt/templates|os/hal/ports/STM32/STM32F3xx|doc|os/hal/ports/STM32/LLD/RTCv2|os/hal/dox|os/ext/CMSIS/ST/STM32F7xx|os/rt/ports/ARMCMx/compilers/GCC/mk|os/rt/ports/ARMCMx/compilers/IAR|os/hal/ports/STM32/STM32F37x|os/common/ports/ARMCMx/compilers/GCC/mk|os/hal/ports/STM32/STM32F4xx|os/various/fatfs_bindings|os/rt/ports/ARMCMx/compilers/RVCT" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="os"/>
                         						
                         <entry excluding="os/common/ports/ARMCMx/devices/STM32F3xx|os/common/ports/ARMCMx/compilers/RVCT|os/hal/ports/SPC5|os/hal/ports/KINETIS|os/common/ports/e200|os/common/ports/ARMCMx/devices/K20x|os/hal/ports/STM32/LLD/USARTv2|os/common/ports/ARMCMx/devices/STM32F4xx|os/hal/ports/STM32/STM32F0xx|os/rt/ports/SIMIA32|os/hal/ports/STM32/LLD/DMAv1|os/hal/ports/simulator|os/various/shell.c|os/hal/osal/nil|os/ext/CMSIS/KINETIS|os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v6m.S|os/hal/ports/AVR|os/rt/ports/ARMCMx/chcore_v6m.c|os/common/ports/ARMCMx/compilers/GCC/ld|os/hal/ports/STM32/LLD/SPIv2|os/common/ports/ARMCMx/compilers/IAR|os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s|os/various/syscalls.c|os/hal/ports/STM32/LLD/I2Cv2|os/common/ports/ARMCMx/devices/STM32F0xx|os/various/devices_lib|os/hal/ports/STM32/STM32L0xx|os/hal/src/adc.c|os|os/hal/ports/STM32/STM32L1xx|os/rt/ports/AVR|os/hal/templates|os/hal/osal/os-less|os/various/lwip_bindings|os/common/ports/ARMCMx/devices/KL2x|os/nil|os/rt/ports/ARM|os/rt/ports/e200|os/common/ports/ARMCMx/devices/STM32L1xx|os/hal/ports/LPC|os/hal/ports/STM32/LLD/GPIOv2|os/hal/boards|os/common/ports/ARMCMx/devices/STM32L0xx|os/hal/ports/STM32/LLD/OTGv1|os/common/ports/ARM|os/rt/templates|os/hal/ports/STM32/STM32F3xx|os/various/evtimer.c|os/hal/ports/STM32/LLD/RTCv2|os/hal/dox|os/rt/ports/ARMCMx/compilers/GCC/mk|os/rt/ports/ARMCMx/compilers/IAR|os/hal/ports/STM32/STM32F37x|os/common/ports/ARMCMx/compilers/GCC/mk|os/hal/ports/STM32/STM32F4xx|os/various/fatfs_bindings|os/rt/ports/ARMCMx/compilers/RVCT" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="os_user_configs"/>
-                        						
-                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="proto_msg"/>
                         						
                         <entry excluding="RF24.cpp|nrf24/tests|nrf24/examples|radioPinFunctions.c|nrf24.c|BL.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
                         						

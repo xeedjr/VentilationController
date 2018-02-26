@@ -1,19 +1,12 @@
-[submodule "modbus"]
-	path = source/modbus
-	url = https://github.com/xeedjr/freemodbus.git
-
-[submodule "os"]
+[submodule "source/os"]
 	path = source/os
 	url = https://github.com/xeedjr/ChibiOS.git
-[submodule "nanopb"]
-	path = source/nanopb
-	url = https://github.com/nanopb/nanopb.git
-
-[submodule "ch_modules"]
+[submodule "source/modbus"]
+	path = source/modbus
+	url = https://github.com/xeedjr/freemodbus.git
+[submodule "source/ch_modules"]
 	path = source/ch_modules
 	url = https://github.com/xeedjr/devices_chibios_hal.git
-	
-
 [submodule "source/src/nrf24"]
 	path = source/src/nrf24
 	url = https://github.com/xeedjr/RF24.git

@@ -21,7 +21,6 @@ BLExtractor::BLExtractor() {
 		/// Error
 		chSysHalt("Error create thread");
 	}
-	thread_ID->p_name = "BLExtractor_Thread";
 
 	si7021_.init(&I2CD1);
 

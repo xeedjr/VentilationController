@@ -47,7 +47,7 @@ private:
 	void Thread (void);
 
 	osThreadId thread_ID = {0};
-	osThreadDef(BLExtractor_Thread, osPriorityNormal, 1024);
+	osThreadDef(BLExtractor_Thread, osPriorityNormal, 1024, "BLExtractor_Thread");
 
 	static void BLExtractor_Timer (void const *argument);
 	void Timer (void);

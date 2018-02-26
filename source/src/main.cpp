@@ -135,7 +135,7 @@ int main(void) {
 	gptStart(&GPTD4, &gpt4cfg);
 	gptStartContinuous(&GPTD4, 2);
 
-	led_blinker.init(INDICATE_PORT, INDICATE, 500, 500);
+	led_blinker.init(INDICATE_PORT, (uint8_t)INDICATE, 500, 500);
 
 	/*
 	* Activates the EXT driver 1.
