@@ -1,0 +1,21 @@
+/*
+ * nrf24Manager.h
+ *
+ *  Created on: 24 лют. 2018 р.
+ *      Author: Bogdan
+ */
+
+#ifndef NRF24MANAGER_H_
+#define NRF24MANAGER_H_
+
+#include <stdint.h>
+
+class nrf24Manager {
+	const uint64_t addresses[2] = { 0xD7D7D7D7D7LL, 0xE7E7E7E7E7LL };
+
+public:
+	nrf24Manager();
+	virtual ~nrf24Manager();
+};
+
+#endif /* NRF24MANAGER_H_ */

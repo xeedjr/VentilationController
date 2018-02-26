@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [VentilationController.PrjPcb]
+   Generated File[PCB1-Plated.TXT]
+   Generated File[PCB1-BoardEdgeRout.TXT]
+   Generated File[PCB1.LDP]
+   Generated File[PCB1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 12:41:28 On 19.02.2018

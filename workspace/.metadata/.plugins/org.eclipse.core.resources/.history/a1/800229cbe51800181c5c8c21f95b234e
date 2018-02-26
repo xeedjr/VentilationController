@@ -1,0 +1,17 @@
+/*
+ * nrf24Manager.h
+ *
+ *  Created on: 24 лют. 2018 р.
+ *      Author: Bogdan
+ */
+
+#ifndef NRF24MANAGER_H_
+#define NRF24MANAGER_H_
+
+class nrf24Manager {
+public:
+	nrf24Manager();
+	virtual ~nrf24Manager();
+};
+
+#endif /* NRF24MANAGER_H_ */

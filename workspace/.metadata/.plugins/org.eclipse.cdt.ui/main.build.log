@@ -1,0 +1,11 @@
+20:47:29 **** Incremental Build of configuration Debug for project main ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "main.elf"
+   text	   data	    bss	    dec	    hex	filename
+  36584	    668	  62176	  99428	  18464	main.elf
+Finished building: main.siz
+ 
+
+20:47:30 Build Finished (took 1s.39ms)
+

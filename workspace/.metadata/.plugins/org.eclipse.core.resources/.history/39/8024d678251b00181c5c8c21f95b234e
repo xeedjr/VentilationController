@@ -1,0 +1,25 @@
+/*
+ * RF24HAL.h
+ *
+ *  Created on: 4 лют. 2018 р.
+ *      Author: Bogdan
+ */
+
+#ifndef NRF24_RF24HAL_H_
+#define NRF24_RF24HAL_H_
+
+class RF24HAL {
+public:
+	RF24HAL();
+	virtual ~RF24HAL();
+
+	virtual uint32_t millis() = 0;
+	virtual void delay(uint16_t ms) = 0;
+	virtual void delayMicroseconds(uint16_t us) = 0;
+	virtual void csn(int mode) = 0;
+	virtual void ce(int level) = 0;
+	virtual uint8_t spi_transfer(uint8_t tx) = 0;
+	virtual void hal_init() = 0;
+};
+
+#endif /* NRF24_RF24HAL_H_ */

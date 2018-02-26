@@ -1,0 +1,97 @@
+20:47:22 **** Incremental Build of configuration Debug for project main ****
+make all 
+Building file: ../src/nrf24/RF24.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DCORTEX_USE_FPU=FALSE -DUSE_FULL_ASSERT -DSTM32F10X_MD -I"../include" -I"../system/include" -I"../os_user_configs" -I"../os/os/ext/CMSIS/ST" -I"../os/os/hal/lib/streams" -I"../os/os/hal/ports/STM32/LLD" -I"../os/os/hal/ports/STM32/LLD/SPIv1" -I"../os/os/hal/ports/STM32/LLD/I2Cv1" -I"../os/os/hal/ports/STM32/LLD/ADCv1" -I"../os/os/hal/ports/STM32/LLD/RTCv1" -I"../os/os/hal/ports/STM32/LLD/USBv1" -I"../os/os/hal/ports/STM32/LLD/USARTv1" -I"../os/os/hal/ports/STM32/LLD/GPIOv1" -I"../os/os/hal/ports/STM32/LLD/DMAv1" -I"../os/os/hal/ports/STM32/LLD/TIMv1" -I"../os/os/hal/ports/common/ARMCMx" -I"../os/os/hal/osal/rt" -I"../os/os/hal/ports/STM32/STM32F1xx" -I"../os/os/hal/include" -I"../os/os/ext/CMSIS/include" -I"../os/os/ext/CMSIS/ST/STM32F1xx" -I"../os/os/common/ports/ARMCMx/devices/STM32F1xx" -I"../os/os/rt/include" -I"../os/os/rt/ports/ARMCMx" -I"../os/os/rt/ports/ARMCMx/cmsis_os" -I"../os/os/rt/ports/ARMCMx/compilers/GCC" -I"../os/os/various/cpp_wrappers" -I"../os/os/hal/ports/STM32/LLD/EXTIv1" -I"../modbus_user_config" -I"../modbus/demo/CMSIS_RTOS/port" -I"../modbus/demo/Chibios-HAL/port" -I"../modbus/modbus/include" -I"../modbus/modbus/rtu" -I"../modbus/modbus/ascii" -I"../ch_modules" -I"../proto_msg" -I"../nanopb" -std=gnu++11 -fabi-version=0 -fno-exceptions -fno-rtti -fno-use-cxa-atexit -fno-threadsafe-statics -r -MMD -MP -MF"src/nrf24/RF24.d" -MT"src/nrf24/RF24.o" -c -o "src/nrf24/RF24.o" "../src/nrf24/RF24.cpp"
+In file included from ../src/nrf24/RF24.cpp:11:0:
+../src/nrf24/RF24.h: In constructor 'RF24::RF24(RF24HAL*)':
+../src/nrf24/RF24.h:74:5: warning: 'RF24::SPI' will be initialized after [-Wreorder]
+   } SPI;
+     ^~~
+../src/nrf24/RF24.h:50:8: warning:   'bool RF24::wide_band' [-Wreorder]
+   bool wide_band; /* 2Mbs data rate in use? */
+        ^~~~~~~~~
+../src/nrf24/RF24.cpp:257:1: warning:   when initialized here [-Wreorder]
+ RF24::RF24(RF24HAL* rf24_hal):
+ ^~~~
+../src/nrf24/RF24.cpp: In member function 'void RF24::printDetails()':
+../src/nrf24/RF24.cpp:342:93: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'const char*' [-Wformat=]
+   printf_P(PSTR("Data Rate\t = %S\r\n"),pgm_read_word(&rf24_datarate_e_str_P[getDataRate()]));
+                                                                                             ^
+../src/nrf24/RF24.cpp:343:87: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'const char*' [-Wformat=]
+   printf_P(PSTR("Model\t\t = %S\r\n"),pgm_read_word(&rf24_model_e_str_P[isPVariant()]));
+                                                                                       ^
+../src/nrf24/RF24.cpp:344:96: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'const char*' [-Wformat=]
+   printf_P(PSTR("CRC Length\t = %S\r\n"),pgm_read_word(&rf24_crclength_e_str_P[getCRCLength()]));
+                                                                                                ^
+../src/nrf24/RF24.cpp:345:89: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'const char*' [-Wformat=]
+   printf_P(PSTR("PA Power\t = %S\r\n"),pgm_read_word(&rf24_pa_dbm_e_str_P[getPALevel()]));
+                                                                                         ^
+Finished building: ../src/nrf24/RF24.cpp
+ 
+Building file: ../src/nrf24/RF24HAL.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DCORTEX_USE_FPU=FALSE -DUSE_FULL_ASSERT -DSTM32F10X_MD -I"../include" -I"../system/include" -I"../os_user_configs" -I"../os/os/ext/CMSIS/ST" -I"../os/os/hal/lib/streams" -I"../os/os/hal/ports/STM32/LLD" -I"../os/os/hal/ports/STM32/LLD/SPIv1" -I"../os/os/hal/ports/STM32/LLD/I2Cv1" -I"../os/os/hal/ports/STM32/LLD/ADCv1" -I"../os/os/hal/ports/STM32/LLD/RTCv1" -I"../os/os/hal/ports/STM32/LLD/USBv1" -I"../os/os/hal/ports/STM32/LLD/USARTv1" -I"../os/os/hal/ports/STM32/LLD/GPIOv1" -I"../os/os/hal/ports/STM32/LLD/DMAv1" -I"../os/os/hal/ports/STM32/LLD/TIMv1" -I"../os/os/hal/ports/common/ARMCMx" -I"../os/os/hal/osal/rt" -I"../os/os/hal/ports/STM32/STM32F1xx" -I"../os/os/hal/include" -I"../os/os/ext/CMSIS/include" -I"../os/os/ext/CMSIS/ST/STM32F1xx" -I"../os/os/common/ports/ARMCMx/devices/STM32F1xx" -I"../os/os/rt/include" -I"../os/os/rt/ports/ARMCMx" -I"../os/os/rt/ports/ARMCMx/cmsis_os" -I"../os/os/rt/ports/ARMCMx/compilers/GCC" -I"../os/os/various/cpp_wrappers" -I"../os/os/hal/ports/STM32/LLD/EXTIv1" -I"../modbus_user_config" -I"../modbus/demo/CMSIS_RTOS/port" -I"../modbus/demo/Chibios-HAL/port" -I"../modbus/modbus/include" -I"../modbus/modbus/rtu" -I"../modbus/modbus/ascii" -I"../ch_modules" -I"../proto_msg" -I"../nanopb" -std=gnu++11 -fabi-version=0 -fno-exceptions -fno-rtti -fno-use-cxa-atexit -fno-threadsafe-statics -r -MMD -MP -MF"src/nrf24/RF24HAL.d" -MT"src/nrf24/RF24HAL.o" -c -o "src/nrf24/RF24HAL.o" "../src/nrf24/RF24HAL.cpp"
+In file included from ../os/os/hal/ports/STM32/LLD/TIMv1/st_lld.h:31:0,
+                 from ../os/os/hal/include/st.h:46,
+                 from ../os/os/rt/ports/ARMCMx/chcore_timer.h:32,
+                 from ../os/os/rt/ports/ARMCMx/chcore.h:204,
+                 from ../os/os/rt/include/ch.h:74,
+                 from ../os/os/hal/osal/rt/osal.h:32,
+                 from ../os/os/hal/include/hal.h:28,
+                 from ../src/nrf24/RF24HAL.cpp:8:
+../os/os/hal/ports/STM32/STM32F1xx/stm32_registry.h:38:0: warning: "STM32F10X_MD" redefined
+ #define STM32F10X_MD
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+Finished building: ../src/nrf24/RF24HAL.cpp
+ 
+Building file: ../src/nrf24/RF24HALChibios.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DCORTEX_USE_FPU=FALSE -DUSE_FULL_ASSERT -DSTM32F10X_MD -I"../include" -I"../system/include" -I"../os_user_configs" -I"../os/os/ext/CMSIS/ST" -I"../os/os/hal/lib/streams" -I"../os/os/hal/ports/STM32/LLD" -I"../os/os/hal/ports/STM32/LLD/SPIv1" -I"../os/os/hal/ports/STM32/LLD/I2Cv1" -I"../os/os/hal/ports/STM32/LLD/ADCv1" -I"../os/os/hal/ports/STM32/LLD/RTCv1" -I"../os/os/hal/ports/STM32/LLD/USBv1" -I"../os/os/hal/ports/STM32/LLD/USARTv1" -I"../os/os/hal/ports/STM32/LLD/GPIOv1" -I"../os/os/hal/ports/STM32/LLD/DMAv1" -I"../os/os/hal/ports/STM32/LLD/TIMv1" -I"../os/os/hal/ports/common/ARMCMx" -I"../os/os/hal/osal/rt" -I"../os/os/hal/ports/STM32/STM32F1xx" -I"../os/os/hal/include" -I"../os/os/ext/CMSIS/include" -I"../os/os/ext/CMSIS/ST/STM32F1xx" -I"../os/os/common/ports/ARMCMx/devices/STM32F1xx" -I"../os/os/rt/include" -I"../os/os/rt/ports/ARMCMx" -I"../os/os/rt/ports/ARMCMx/cmsis_os" -I"../os/os/rt/ports/ARMCMx/compilers/GCC" -I"../os/os/various/cpp_wrappers" -I"../os/os/hal/ports/STM32/LLD/EXTIv1" -I"../modbus_user_config" -I"../modbus/demo/CMSIS_RTOS/port" -I"../modbus/demo/Chibios-HAL/port" -I"../modbus/modbus/include" -I"../modbus/modbus/rtu" -I"../modbus/modbus/ascii" -I"../ch_modules" -I"../proto_msg" -I"../nanopb" -std=gnu++11 -fabi-version=0 -fno-exceptions -fno-rtti -fno-use-cxa-atexit -fno-threadsafe-statics -r -MMD -MP -MF"src/nrf24/RF24HALChibios.d" -MT"src/nrf24/RF24HALChibios.o" -c -o "src/nrf24/RF24HALChibios.o" "../src/nrf24/RF24HALChibios.cpp"
+In file included from ../os/os/hal/ports/STM32/LLD/TIMv1/st_lld.h:31:0,
+                 from ../os/os/hal/include/st.h:46,
+                 from ../os/os/rt/ports/ARMCMx/chcore_timer.h:32,
+                 from ../os/os/rt/ports/ARMCMx/chcore.h:204,
+                 from ../os/os/rt/include/ch.h:74,
+                 from ../os/os/hal/osal/rt/osal.h:32,
+                 from ../os/os/hal/include/hal.h:28,
+                 from ../src/nrf24/RF24HALChibios.cpp:8:
+../os/os/hal/ports/STM32/STM32F1xx/stm32_registry.h:38:0: warning: "STM32F10X_MD" redefined
+ #define STM32F10X_MD
+ 
+<command-line>:0:0: note: this is the location of the previous definition
+../src/nrf24/RF24HALChibios.cpp: In member function 'virtual uint8_t RF24HAL_Chibios::spi_transfer(uint8_t)':
+../src/nrf24/RF24HALChibios.cpp:77:10: warning: unused variable 'rx' [-Wunused-variable]
+  uint8_t rx = 0;
+          ^~
+Finished building: ../src/nrf24/RF24HALChibios.cpp
+ 
+Building file: ../src/nrf24Manager.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DCORTEX_USE_FPU=FALSE -DUSE_FULL_ASSERT -DSTM32F10X_MD -I"../include" -I"../system/include" -I"../os_user_configs" -I"../os/os/ext/CMSIS/ST" -I"../os/os/hal/lib/streams" -I"../os/os/hal/ports/STM32/LLD" -I"../os/os/hal/ports/STM32/LLD/SPIv1" -I"../os/os/hal/ports/STM32/LLD/I2Cv1" -I"../os/os/hal/ports/STM32/LLD/ADCv1" -I"../os/os/hal/ports/STM32/LLD/RTCv1" -I"../os/os/hal/ports/STM32/LLD/USBv1" -I"../os/os/hal/ports/STM32/LLD/USARTv1" -I"../os/os/hal/ports/STM32/LLD/GPIOv1" -I"../os/os/hal/ports/STM32/LLD/DMAv1" -I"../os/os/hal/ports/STM32/LLD/TIMv1" -I"../os/os/hal/ports/common/ARMCMx" -I"../os/os/hal/osal/rt" -I"../os/os/hal/ports/STM32/STM32F1xx" -I"../os/os/hal/include" -I"../os/os/ext/CMSIS/include" -I"../os/os/ext/CMSIS/ST/STM32F1xx" -I"../os/os/common/ports/ARMCMx/devices/STM32F1xx" -I"../os/os/rt/include" -I"../os/os/rt/ports/ARMCMx" -I"../os/os/rt/ports/ARMCMx/cmsis_os" -I"../os/os/rt/ports/ARMCMx/compilers/GCC" -I"../os/os/various/cpp_wrappers" -I"../os/os/hal/ports/STM32/LLD/EXTIv1" -I"../modbus_user_config" -I"../modbus/demo/CMSIS_RTOS/port" -I"../modbus/demo/Chibios-HAL/port" -I"../modbus/modbus/include" -I"../modbus/modbus/rtu" -I"../modbus/modbus/ascii" -I"../ch_modules" -I"../proto_msg" -I"../nanopb" -std=gnu++11 -fabi-version=0 -fno-exceptions -fno-rtti -fno-use-cxa-atexit -fno-threadsafe-statics -r -MMD -MP -MF"src/nrf24Manager.d" -MT"src/nrf24Manager.o" -c -o "src/nrf24Manager.o" "../src/nrf24Manager.cpp"
+Finished building: ../src/nrf24Manager.cpp
+ 
+Building target: main.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall -Wextra  -g3 -T "../os_user_configs/STM32F103xB_bootloader.ld" -nostartfiles -Xlinker --gc-sections -L"../os/os/common/ports/ARMCMx/compilers/GCC" -Xlinker --defsym=__process_stack_size__=0x200 -Xlinker --defsym=__main_stack_size__=0x2000 -Wl,-Map,"main.map" --specs=nano.specs -o "main.elf"  ./system/src/newlib/_exit.o ./system/src/newlib/_sbrk.o ./system/src/newlib/_syscalls.o ./system/src/newlib/assert.o  ./src/nrf24/RF24.o ./src/nrf24/RF24HAL.o ./src/nrf24/RF24HALChibios.o  ./src/BLExtractor.o ./src/MBComunication.o ./src/main.o ./src/nrf24Manager.o  ./os_user_configs/board.o  ./os/os/various/cpp_wrappers/ch.o ./os/os/various/cpp_wrappers/syscalls_cpp.o  ./os/os/various/evtimer.o ./os/os/various/shell.o ./os/os/various/syscalls.o  ./os/os/rt/src/chcond.o ./os/os/rt/src/chdebug.o ./os/os/rt/src/chdynamic.o ./os/os/rt/src/chevents.o ./os/os/rt/src/chheap.o ./os/os/rt/src/chmboxes.o ./os/os/rt/src/chmemcore.o ./os/os/rt/src/chmempools.o ./os/os/rt/src/chmsg.o ./os/os/rt/src/chmtx.o ./os/os/rt/src/chqueues.o ./os/os/rt/src/chregistry.o ./os/os/rt/src/chschd.o ./os/os/rt/src/chsem.o ./os/os/rt/src/chstats.o ./os/os/rt/src/chsys.o ./os/os/rt/src/chthreads.o ./os/os/rt/src/chtm.o ./os/os/rt/src/chvt.o  ./os/os/rt/ports/ARMCMx/compilers/GCC/chcoreasm_v7m.o  ./os/os/rt/ports/ARMCMx/cmsis_os/cmsis_os.o  ./os/os/rt/ports/ARMCMx/chcore.o ./os/os/rt/ports/ARMCMx/chcore_v7m.o  ./os/os/hal/src/adc.o ./os/os/hal/src/can.o ./os/os/hal/src/dac.o ./os/os/hal/src/ext.o ./os/os/hal/src/gpt.o ./os/os/hal/src/hal.o ./os/os/hal/src/hal_buffers.o ./os/os/hal/src/hal_mmcsd.o ./os/os/hal/src/hal_queues.o ./os/os/hal/src/i2c.o ./os/os/hal/src/i2s.o ./os/os/hal/src/icu.o ./os/os/hal/src/mac.o ./os/os/hal/src/mmc_spi.o ./os/os/hal/src/pal.o ./os/os/hal/src/pwm.o ./os/os/hal/src/rtc.o ./os/os/hal/src/sdc.o ./os/os/hal/src/serial.o ./os/os/hal/src/serial_usb.o ./os/os/hal/src/spi.o ./os/os/hal/src/st.o ./os/os/hal/src/uart.o ./os/os/hal/src/usb.o ./os/os/hal/src/wdg.o  ./os/os/hal/ports/common/ARMCMx/nvic.o  ./os/os/hal/ports/STM32/STM32F1xx/adc_lld.o ./os/os/hal/ports/STM32/STM32F1xx/ext_lld_isr.o ./os/os/hal/ports/STM32/STM32F1xx/hal_lld.o  ./os/os/hal/ports/STM32/LLD/xWDGv1/wdg_lld.o  ./os/os/hal/ports/STM32/LLD/USBv1/usb_lld.o  ./os/os/hal/ports/STM32/LLD/USARTv1/serial_lld.o ./os/os/hal/ports/STM32/LLD/USARTv1/uart_lld.o  ./os/os/hal/ports/STM32/LLD/TIMv1/gpt_lld.o ./os/os/hal/ports/STM32/LLD/TIMv1/icu_lld.o ./os/os/hal/ports/STM32/LLD/TIMv1/pwm_lld.o ./os/os/hal/ports/STM32/LLD/TIMv1/st_lld.o  ./os/os/hal/ports/STM32/LLD/SPIv1/i2s_lld.o ./os/os/hal/ports/STM32/LLD/SPIv1/spi_lld.o  ./os/os/hal/ports/STM32/LLD/SDMMCv1/sdc_lld.o  ./os/os/hal/ports/STM32/LLD/SDIOv1/sdc_lld.o  ./os/os/hal/ports/STM32/LLD/RTCv1/rtc_lld.o  ./os/os/hal/ports/STM32/LLD/OTGv1/usb_lld.o  ./os/os/hal/ports/STM32/LLD/MACv1/mac_lld.o  ./os/os/hal/ports/STM32/LLD/I2Cv1/i2c_lld.o  ./os/os/hal/ports/STM32/LLD/GPIOv1/pal_lld.o  ./os/os/hal/ports/STM32/LLD/EXTIv1/ext_lld.o  ./os/os/hal/ports/STM32/LLD/DMAv1/stm32_dma.o  ./os/os/hal/ports/STM32/LLD/CANv1/can_lld.o  ./os/os/hal/osal/rt/osal.o  ./os/os/hal/lib/streams/chprintf.o ./os/os/hal/lib/streams/memstreams.o ./os/os/hal/lib/streams/nullstreams.o  ./os/os/common/ports/ARMCMx/compilers/GCC/crt0_v7m.o ./os/os/common/ports/ARMCMx/compilers/GCC/crt1.o ./os/os/common/ports/ARMCMx/compilers/GCC/vectors.o  ./modbus/modbus/tcp/mbtcp.o  ./modbus/modbus/rtu/mbcrc.o ./modbus/modbus/rtu/mbrtu.o  ./modbus/modbus/functions/mbfunccoils.o ./modbus/modbus/functions/mbfuncdiag.o ./modbus/modbus/functions/mbfuncdisc.o ./modbus/modbus/functions/mbfuncholding.o ./modbus/modbus/functions/mbfuncinput.o ./modbus/modbus/functions/mbfuncother.o ./modbus/modbus/functions/mbutils.o  ./modbus/modbus/ascii/mbascii.o  ./modbus/modbus/mb.o  ./modbus/demo/Chibios-HAL/port/portserial.o ./modbus/demo/Chibios-HAL/port/porttimer.o  ./modbus/demo/CMSIS_RTOS/port/portevent.o ./modbus/demo/CMSIS_RTOS/port/portother.o  ./modbus/demo/CMSIS_RTOS/mb_thread.o  ./ch_modules/BackupRegister.o ./ch_modules/Button.o ./ch_modules/ButtonsMain.o ./ch_modules/HT12D.o ./ch_modules/HT12E.o ./ch_modules/IrRemote.o ./ch_modules/LEDBlinker.o ./ch_modules/ReleGPIO.o ./ch_modules/RfLink.o ./ch_modules/RfLinkNEC.o ./ch_modules/RfLinkPT2262.o ./ch_modules/RfReceiverPT2262.o ./ch_modules/RfremoteNECReceiver.o ./ch_modules/SI7021.o ./ch_modules/SensorButton.o ./ch_modules/Servo.o   
+Finished building target: main.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "main.elf"  "main.hex"
+Finished building: main.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "main.elf"
+   text	   data	    bss	    dec	    hex	filename
+  36584	    668	  62176	  99428	  18464	main.elf
+Finished building: main.siz
+ 
+20:47:29 **** Incremental Build of configuration Debug for project main ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "main.elf"
+   text	   data	    bss	    dec	    hex	filename
+  36584	    668	  62176	  99428	  18464	main.elf
+Finished building: main.siz
+ 

@@ -1,0 +1,19 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [VentilationController.PrjPcb]
+   Generated File[PCB1.GTL]
+   Generated File[PCB1.GBL]
+   Generated File[PCB1.GTO]
+   Generated File[PCB1.GTS]
+   Generated File[PCB1.GBS]
+   Generated File[PCB1.GBO]
+   Generated File[PCB1.GKO]
+   Generated File[PCB1.RUL]
+   Generated File[PCB1.EXTREP]
+   Generated File[PCB1.REP]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 12:40:54 On 19.02.2018

@@ -1,0 +1,18 @@
+/*
+ * nrf24Manager.cpp
+ *
+ *  Created on: 24 лют. 2018 р.
+ *      Author: Bogdan
+ */
+
+#include "nrf24Manager.h"
+
+nrf24Manager::nrf24Manager() {
+	// TODO Auto-generated constructor stub
+
+}
+
+nrf24Manager::~nrf24Manager() {
+	// TODO Auto-generated destructor stub
+}
+
